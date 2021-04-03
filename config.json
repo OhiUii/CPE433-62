@@ -22,11 +22,10 @@
             "Postprocessing" :"false" 
         },
         {
-            "Path" : "clientInfo",
-            "Class" : "DNWS.ClientInfoPlugin",
-            "Preprocessing" : "true",
-            "Postprocessing" : "false" ,
-            "Singleton" : "false"
+            "Path" : "pm25",
+            "Class" : "DNWS.PM25Plugin",
+            "Preprocessing" : "false",
+            "Postprocessing" :"false" 
         }
     ]
 }
